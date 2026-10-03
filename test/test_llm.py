@@ -50,3 +50,7 @@ def test_wrong_source_is_rejected():
     )
     with pytest.raises(ValidationError):
         FinancialAnswer.model_validate_json(text)      
+
+def test_get_annual_fact:
+    
+
